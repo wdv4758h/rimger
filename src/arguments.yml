@@ -1,0 +1,9 @@
+name: rimger
+version: 0.1.0
+about: a simple image viewer in Rust
+author: Chiu-Hsiang Hsu <wdv4758h@gmail.com>
+
+args:
+    - file:
+        help: image file
+        index: 1
