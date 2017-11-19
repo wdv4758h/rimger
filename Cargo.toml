@@ -9,10 +9,9 @@ repository = "https://github.com/wdv4758h/rimger/"
 keywords = ["image", "viewer"]
 
 [dependencies]
-clap = { version = "2.9.1", features = ["yaml"] }
-conrod = "0.37.1"
-find_folder = "0.3.0"
-piston_window = "0.50.0"
+clap = { version = "2.27.1", features = ["yaml"] }
+conrod = { version = "0.56.0", features = ["winit", "glium"] }
+image = "0.17.0"
 
 [profile.release]
 lto = true
