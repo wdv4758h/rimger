@@ -7,3 +7,4 @@ args:
     - file:
         help: image file
         index: 1
+        required: true
