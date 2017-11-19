@@ -5,13 +5,24 @@ rimger - a simple image viewer
 .. contents:: Table of Contents
 
 
-Installation
+Build
 ========================================
+
+.. code-block:: sh
+
+    git clone https://github.com/wdv4758h/rimger.git
+    cd rimger/
+    cargo build --release
+    ./target/release/rimger --help
 
 
 
 Usage
 ========================================
+
+.. code-block:: sh
+
+    rimger /path/to/image
 
 
 
@@ -55,7 +66,7 @@ Developement
 Making Release
 ------------------------------
 
-1. update version in ``src/arguments.yml``
+1. update version in ``src/cli.yml``
 2. update version in ``Cargo.toml``
 3. update version in ``Cargo.lock``
 4. add git tag
@@ -65,6 +76,7 @@ Making Release
 Special Thanks
 ========================================
 
+* `Piston Developers <https://github.com/PistonDevelopers>`_
 * `clap-rs <https://github.com/kbknapp/clap-rs>`_ for arguments parsing
 * `Rust Team <https://www.rust-lang.org/team.html>`_
 * and every project I've used
